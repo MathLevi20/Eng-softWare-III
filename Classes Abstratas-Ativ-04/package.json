@@ -1,0 +1,19 @@
+{
+  "name": "ativ_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.3"
+  }
+}
