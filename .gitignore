@@ -11,7 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
-
+Tratamento de Erros-Ativ-02/src-1/
+Interfaces-Ativ-05/
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
