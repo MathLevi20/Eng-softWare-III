@@ -94,7 +94,7 @@ class Circulo implements Calculo, IComparavel {
 class Teste {
     testAll() {
         let c = new Circulo(1.5)//7,...
-        let q = new Quadrado(1.5)//7,...
+        let q = new Quadrado(3)//7,...
         let t = new Triangulo(3, 4)//6
         let r = new Retangulo(3, 4)//12
         console.log("Area:", c.calculaArea(), t.calculaArea(), r.calculaArea(), q.calculaArea())
@@ -104,10 +104,10 @@ class Teste {
 
 class Teste2 {
     testAll() {
-        let c = new Circulo(1.5)//7,...
-        let t = new Triangulo(3, 4)//6
-        let r = new Retangulo(3, 4)//12
-        let q = new Quadrado(3)//12
+        let c = new Circulo(1.5)
+        let t = new Triangulo(3, 4)
+        let r = new Retangulo(3, 4)
+        let q = new Quadrado(3)
         console.log('=== Triangulo ===')
         console.log(t.compare(r))
         console.log(t.compare(c))
